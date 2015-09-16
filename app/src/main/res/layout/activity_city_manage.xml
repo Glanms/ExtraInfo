@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_padding_horizontal"
+    android:paddingRight="@dimen/activity_padding_horizontal"
+    android:paddingTop="@dimen/activity_padding_vertical"
+    tools:context="com.sdk.info.extrainfo.open_weather_map.activity.CityManageActivity">
+
+
+    <EditText
+        android:id="@+id/search_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:drawableLeft="@drawable/search_icon"
+        android:hint="@string/hint_text"
+        android:lines="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_edt"
+        android:orientation="vertical">
+        <!--    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">-->
+
+                <TextView
+                    android:id="@+id/test_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:textSize="16sp" />
+
+         <!--       <fragment
+                    android:id="@+id/map"
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="400dp"
+                    android:layout_height="300dp" />-->
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/test_tv"
+                    android:text="定位信息" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+              <!--  <ListView
+                    android:id="@+id/city_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/lv_divider"
+                    android:dividerHeight="1dp" />-->
+
+                <com.sdk.info.extrainfo.open_weather_map.view.PinnedHeaderListView
+                    android:id="@+id/friends_display"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@color/lv_divider"
+                    android:footerDividersEnabled="false"
+                    android:headerDividersEnabled="false" />
+
+                <com.sdk.info.extrainfo.open_weather_map.view.BladeView
+                    android:id="@+id/friends_myletterlistview"
+                    android:layout_width="30dip"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:background="#00000000" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--    <ImageView
+            android:id="@+id/add_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/add_btn_bg" />-->
+</RelativeLayout>

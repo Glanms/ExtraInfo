@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  OpenWeatherMap天气中分割线  -->
+    <color name="btn_divider">#ff844dda</color>
+    <color name="view_divider">#850f0919</color>
+    <color name="forecast_bg">#a9fff08d</color>
+    <color name="fore_item1_bg">#6f3d91d8</color>
+    <color name="fore_item2_bg">#a9235b96</color>
+    <color name="fore_item3_bg">#a9235b96</color>
+    <color name="lv_divider">#ffeeeeee</color>
+    <color name="dialog_bg">#bd0d0d0d</color>
+    <color name="dialog_text">#e0ffffff</color>
+    <!--  城市管理 -->
+<!--    <color name="city_item_click">#ffb6b6b6</color>-->
+    <color name="city_item_click">#e4e4e4</color>
+    <color name="city_item_normal">#fff6f6f6</color>
+    <color name="item_text">#ff616161</color>
+    <color name="city_title_bg">#ffe6e6e6</color>
+    <color name="city_title_text">#ff424242</color>
+    <color name="popup_bg_select">#407c7c7c</color>
+    <color name="popup_text_select">#c262b0f7</color>
+    <!--侧边字母导航栏颜色-->
+    <color name="nav_text_normal">#b80000ff</color>
+    <color name="nav_text_press">#a3ffa7</color>
+    <color name="nav_bar_bg_active">#4D000000</color>
+    <color name="nav_bar_bg_normal">#47ffffff</color>
+    <!--Toast相关-->
+    <color name="toast_view_bg">#deea3d30</color>
+    <color name="toast_view_text">#b3ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="text_detail">#dbeffcf0</color>
+    <color name="text_detail_for">#9ce6f2fc</color>
+    <color name="text_detail_title">#eee14a</color>
+
+    <color name="biz_plugin_weather_text1">#ff2f2f2f</color>
+    <!-- Select2City 页面 -->
+    <color name="base_main_bg_color">#67dcdcde</color>
+    <color name="search_edt_bg">#c581d8c7</color>
+
+    <!--Divider-->
+    <color name="divider_black_bg">#c8000000</color>
+    <color name="divider_white_bg">#8effffff</color>
+
+    <color name="finance_widget_bg">#bb104be8</color>
+
+</resources>

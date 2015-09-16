@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_padding_vertical">8dp</dimen>
+    <dimen name="activity_padding_horizontal">8dp</dimen>
+
+    <!--BladeView -->
+    <dimen name="blade_text_size">12sp</dimen>
+    <dimen name="blade_popup_text_size">20sp</dimen>
+    <dimen name="bladeview_popup_height">80dp</dimen>
+    <!--  天气界面 -->
+    <dimen name="biz_plugin_weather_otherday_small_textsize">14.0sp</dimen>
+    <dimen name="biz_plugin_weather_otherday_temperature_textsize">15.0sp</dimen>
+    <dimen name="biz_plugin_weather_otherday_climate_textsize">13.0sp</dimen>
+    <dimen name="biz_plugin_weather_selectcity_item_textsize">13.0sp</dimen>
+    <dimen name="biz_plugin_weather_selectcity_indicator_textsize">12.0sp</dimen>
+    <dimen name="biz_plugin_weather_otherday_image_size">60.0dip</dimen>
+    <dimen name="biz_plugin_weather_selectcity_group_item_padding">14.0dip</dimen>
+    <dimen name="blade_view_text_size">11dip</dimen>
+
+</resources>

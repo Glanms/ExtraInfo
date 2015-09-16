@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">WeatherFinance</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_yahoo_weather">YahooWeatherActivity</string>
+    <string name="title_activity_wshow">OWM-天气预报</string>
+
+    <!-- 主界面label -->
+    <string name="label1">Yahoo 天气</string>
+    <string name="label2">Open Weather Map</string>
+    <string name="label3">Yahoo 财经</string>
+    <string name="label4">Google 财经</string>
+
+    <!-- Open Weather Map天气获取界面 -->
+    <string name="owm_weather_label">点击按钮切换城市天气</string>
+    <string name="btn1_str">北京</string>
+    <string name="btn2_str">伊斯坦堡</string>
+    <string name="btn3_str">安卡拉</string>
+    <string name="btn4_str">布尔萨</string>
+    <string name="btn5_str">伊兹密尔</string>
+    <string name="btn6_str">选择城市</string>
+    <string name="title_activity_yahoo_finance">YahooFinanceActivity</string>
+    <!-- 城市选择页 -->
+    <string name="hint_text">搜索城市</string>
+    <string name="city_choose_label">选择城市</string>
+    <string name="local_city_label">定位到的城市</string>
+    <string name="hot_city_label">热门城市</string><!-- 或者“经常用到的城市” -->
+    <string name="all_city_label">所有城市</string>
+
+    <!-- 星期 -->
+    <string name="week_Mon">周一</string>
+    <string name="week_Thes">周二</string>
+    <string name="week_Wed">周三</string>
+    <string name="week_Thur">周四</string>
+    <string name="week_Fri">周五</string>
+    <string name="week_Sat">周六</string>
+    <string name="week_Sun">周日</string>
+
+    <string name="title_activity_city_page">选择城市</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!-- 定位相关 -->
+    <string name="find_my_location">点击获取当前位置</string>
+    <string name="no_provider_label">请打开网络或者GPS</string>
+    <string name="no_city_found">你的位置消失在宇宙中...</string>
+    <string name="title_activity_finance">FinanceActivity</string>
+    <string name="title_activity_select">选择城市</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_select2">Select2Activity</string>
+
+</resources>

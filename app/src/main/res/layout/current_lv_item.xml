@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="82dip"
+    tools:context="com.sdk.info.extrainfo.open_weather_map.activity.SelectActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/current_item_header_parent"
+            android:layout_width="fill_parent"
+            android:layout_height="32dip"
+            android:background="@color/city_title_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/current_item_header_text"
+                style="@style/city_title"
+                tools:text="当前位置" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@drawable/city_item_bg">
+            <TextView
+                android:id="@+id/current_item"
+                tools:text="当前城市"
+                style="@style/item_city" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
