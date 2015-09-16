@@ -63,11 +63,16 @@ public class MyBladeView extends View {
             paint.setTextSize(mCharHeight);
             paint.setFakeBoldText(true);
             paint.setAntiAlias(true);
-            if (i == choose) {
-                paint.setColor(getResources().getColor(R.color.nav_text_press));
-            }
             float xPos = width / 2 - paint.measureText(b[i]) / 2;
             float yPos = singleHeight * i + singleHeight;
+
+            if (i == choose) {
+                paint.setColor(getResources().getColor(R.color.nav_text_press));
+                // 点击处有个小圆圈
+                Paint nPaint = new Paint();
+                nPaint.setColor(getResources().getColor(R.color.bg_circle_nav_text_press));
+                canvas.drawCircle(xPos + 14, yPos - 10, 32, nPaint);
+            }
             canvas.drawText(b[i], xPos, yPos, paint);
             paint.reset();
         }

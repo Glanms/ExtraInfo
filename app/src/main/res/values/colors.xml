@@ -20,8 +20,9 @@
     <color name="popup_bg_select">#407c7c7c</color>
     <color name="popup_text_select">#c262b0f7</color>
     <!--侧边字母导航栏颜色-->
-    <color name="nav_text_normal">#b80000ff</color>
-    <color name="nav_text_press">#a3ffa7</color>
+    <color name="nav_text_normal">#bd202020</color>
+    <color name="nav_text_press">#85f6f6f6</color>
+    <color name="bg_circle_nav_text_press">#b9f81916</color>
     <color name="nav_bar_bg_active">#4D000000</color>
     <color name="nav_bar_bg_normal">#47ffffff</color>
     <!--Toast相关-->
@@ -36,7 +37,9 @@
     <color name="biz_plugin_weather_text1">#ff2f2f2f</color>
     <!-- Select2City 页面 -->
     <color name="base_main_bg_color">#67dcdcde</color>
-    <color name="search_edt_bg">#c581d8c7</color>
+    <color name="bg_search_edt_color1">#c55a6cd8</color>
+    <color name="bg_search_edt_color2">#675a6cd8</color>
+    <color name="bg_search_edt_color3">#6ce7e8f0</color>
 
     <!--Divider-->
     <color name="divider_black_bg">#c8000000</color>
