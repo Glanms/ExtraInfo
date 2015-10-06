@@ -18,5 +18,6 @@
     <dimen name="biz_plugin_weather_otherday_image_size">60.0dip</dimen>
     <dimen name="biz_plugin_weather_selectcity_group_item_padding">14.0dip</dimen>
     <dimen name="blade_view_text_size">11dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>

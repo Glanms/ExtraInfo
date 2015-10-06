@@ -11,6 +11,7 @@
     <string name="label2">Open Weather Map</string>
     <string name="label3">Yahoo 财经</string>
     <string name="label4">Google 财经</string>
+    <string name="label5">Dark Sky Forecast</string>
 
     <!-- Open Weather Map天气获取界面 -->
     <string name="owm_weather_label">点击按钮切换城市天气</string>
@@ -47,5 +48,6 @@
     <string name="title_activity_select">选择城市</string>
     <string name="title_activity_menu">MenuActivity</string>
     <string name="title_activity_select2">Select2Activity</string>
+    <string name="title_activity_dark_sky_sample">DarkSkySampleActivity</string>
 
 </resources>

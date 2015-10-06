@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.sdk.info.extrainfo.dark_sky_forcast.DarkSkySampleActivity;
 import com.sdk.info.extrainfo.google_finance.FinanceActivity;
 import com.sdk.info.extrainfo.open_weather_map.activity.WShowActivity;
 import com.sdk.info.extrainfo.yahoo_finance.YahooFinanceActivity;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button google_btn;
     private Button yahoo_finance_btn;
     private Button google_finance_btn;
+    private Button dark_sky_forecast_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +32,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         google_btn = (Button) findViewById(R.id.demo_owm_weather);
         yahoo_finance_btn = (Button) findViewById(R.id.demo_yahoo_finance);
         google_finance_btn = (Button) findViewById(R.id.demo_google_finance);
+        dark_sky_forecast_btn = (Button)findViewById(R.id.demo_dark_sky_forecast);
 
         yahoo_btn.setOnClickListener(this);
         google_btn.setOnClickListener(this);
         yahoo_finance_btn.setOnClickListener(this);
         google_finance_btn.setOnClickListener(this);
+        dark_sky_forecast_btn.setOnClickListener(this);
 
     }
 
@@ -70,6 +74,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.demo_owm_weather:
                 Intent intent2 = new Intent(this, WShowActivity.class);
                 startActivity(intent2);
+                break;
+            case R.id.demo_dark_sky_forecast:
+                Intent intent5 = new Intent(this, DarkSkySampleActivity.class);
+                startActivity(intent5);
                 break;
             case R.id.demo_yahoo_finance:
                 Intent intent3 = new Intent(this, YahooFinanceActivity.class);

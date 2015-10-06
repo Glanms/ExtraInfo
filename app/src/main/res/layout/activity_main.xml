@@ -40,6 +40,17 @@
         android:layout_height="1dp" />
 
     <Button
+        android:id="@+id/demo_dark_sky_forecast"
+        android:text="@string/label5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <Button
         android:id="@+id/demo_yahoo_finance"
         android:text="@string/label3"
         android:layout_width="match_parent"
@@ -60,4 +71,5 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp" />
+
 </LinearLayout>

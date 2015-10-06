@@ -56,6 +56,26 @@ public class JSONUtils {
         return list.get(0);
     }
 
+//    JSONObject itemObj = listArray.getJSONObject(0);
+//    String foreWind1 = weatherUtil.formatWind(context, itemObj.optDouble("speed"));
+//    bean.setForeWind1(foreWind1);
+//    //解析list子标签temp下的数据
+//    JSONObject tempObj = itemObj.optJSONObject("temp");
+//    Double minTemp = tempObj.optDouble("min");
+//    bean.setForeMinTemp1(minTemp);
+//    Double maxTemp = tempObj.optDouble("max");
+//    bean.setForeMaxTemp1(maxTemp);
+//    //解析list子标签weather数组下的数据
+//    JSONArray array = itemObj.optJSONArray("weather");
+//    JSONObject stateObj = array.optJSONObject(0);
+//    int foreId1 = stateObj.optInt("id");
+//    String foreState1 = weatherUtil.getStateById(foreId1);
+//    // 设置当天天气情况名称
+//    String foreStateName1 =  mWeatherState.get(foreState1);
+//    bean.setForeState1(foreStateName1);
+//    int foreIcon1 = mWeatherIcon.get(foreState1);
+//    bean.setForeIcon1(foreIcon1);
+
     /**
      * 解析天气预报结果
      * @param key

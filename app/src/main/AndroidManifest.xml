@@ -36,9 +36,9 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
             android:configChanges="locale|keyboardHidden|orientation"
-            android:launchMode="singleTask">
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -78,7 +78,12 @@
             android:name=".open_weather_map.activity.Select2Activity"
             android:label="@string/title_activity_select"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden|adjustPan">
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        <activity
+            android:name=".dark_sky_forcast.DarkSkySampleActivity"
+            android:label="@string/title_activity_dark_sky_sample"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 
